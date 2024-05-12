@@ -1,0 +1,11 @@
+In our dataset, I observed a particular pattern where the difference between the 'start time' and 'end time' columns is sometimes zero and sometimes non-zero. Specifically, when this difference is zero, I noticed that the corresponding 'nufnu' values are not zero. Conversely, when the difference is not zero, the 'nufnu' values tend to be zero.
+Upon further analysis, I found that this inconsistency in the relationship between time difference and 'nufnu' values suggests a potential data inconsistency or error. As a result, I have decided to drop the 'start time' and 'end time' columns from my dataset.
+
+In my analysis, I observed instances where the 'nufnu' values were higher than the corresponding 'nufnu_upper' values and lower than the 'nufnu_lower' values. This inconsistency is unexpected and suggests potential errors or anomalies in the data.
+After careful consideration, I decided to remove these data points from my dataset. By doing so, I aim to ensure the reliability and accuracy of my analysis results. Removing these inconsistent data points helps maintain data integrity and prevents them from influencing the interpretation of my findings.
+
+After further analysis, I observed a high correlation between the 'nufnu' column and the 'nufnu_lower' column, as well as between the 'nufnu' column and the 'nufnu_upper' column. This high correlation suggests that the information provided by the 'nufnu' and 'nufnu_upper' columns is redundant, as both columns convey similar information about the lower and upper bounds of the flux density measurement.
+
+Based on this observation, I made the decision to delete both the 'nufnu' and 'nufnu_upper' columns from my dataset.
+
+The relationship between "nufnu" and "redshift" or "frequency" may is not linear. 

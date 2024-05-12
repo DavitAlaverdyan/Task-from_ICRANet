@@ -1,0 +1,4 @@
+The best result among the models appears to be achieved by Lasso Regression, indicated by its lower Mean Squared Error, Mean Absolute Error, and higher R^2 score compared to the other models. This suggests Lasso Regression better fits the data and provides more accurate predictions.
+
+
+The Decision Tree Regressor's low R^2 score indicates it struggles to capture the variance in the data, likely due to its tendency to overfit, resulting in poor generalization to unseen data.
